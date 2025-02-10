@@ -13,9 +13,7 @@ Given an input genomic sequence (e.g., human chromosome Y), the algorithm comput
   🔗 [NCBI Chromosome Y Dataset](https://www.ncbi.nlm.nih.gov/nuccore/CP086569.2)
 - The **FASTA file** containing the sequence was uploaded to **Google Colab** and used as the input.
 
----
 
-## The input is a **FASTA** file
 
 ---
 
@@ -118,11 +116,11 @@ Reads input, computes SA and LCP, finds the longest repeat, and reports:
 
 RESULTS:
 ---------
-Input text length: 62460029 characters
-Length of the longest repeat: 81262
-Starting positions of the longest repeat: [58413702, 59261387]
-Wall-clock time for SA and LCP construction: 701.606730 seconds
-Peak memory usage: 4303592 KB
+-Input text length: 62460029 characters
+-Length of the longest repeat: 81262
+-Starting positions of the longest repeat: [58413702, 59261387]
+-Wall-clock time for SA and LCP construction: 701.606730 seconds
+-Peak memory usage: 4303592 KB
 
 
 
