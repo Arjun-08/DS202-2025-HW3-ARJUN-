@@ -122,16 +122,15 @@ Reads input, computes SA and LCP, finds the longest repeat, and reports:
 ---
 
 ## **Results**
-- **Input text length**: 57,227,415 characters
 
-```
+Input text length: 62460029 characters
+
 RESULTS:
 ---------
-Length of the longest repeat: 156
-Longest repeated substring: 'ATATGCTG... (truncated for clarity)'
-Starting positions of the longest repeat: [432112, 789234, 1209483]
-Wall-clock time for SA and LCP construction: 5.342180 seconds
-Peak memory usage: 105620 KB
+Length of the longest repeat: 81262
+Starting positions of the longest repeat: [58413702, 59261387]
+Wall-clock time for SA and LCP construction: 701.606730 seconds
+Peak memory usage: 4303592 KB
 ```
 
 ---
