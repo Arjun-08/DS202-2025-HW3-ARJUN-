@@ -13,10 +13,6 @@ Given an input genomic sequence (e.g., human chromosome Y), the algorithm comput
   🔗 [NCBI Chromosome Y Dataset](https://www.ncbi.nlm.nih.gov/nuccore/CP086569.2)
 - The **FASTA file** containing the sequence was uploaded to **Google Colab** and used as the input.
 
-
-
----
-
 ## **Prerequisites**
 This project requires **Python 3** and the `pydivsufsort` library for suffix array computation.
 
