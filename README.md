@@ -1,8 +1,5 @@
 # **Longest Repeat in Genomic Sequences**
 
-## **Introduction**
-Repetitive DNA plays an important functional and evolutionary role in genomes. However, it also makes computational problems such as genome assembly challenging. This project identifies the **longest repeated substring** in a given input text using a **suffix array (SA)** and **longest common prefix (LCP) array**.
-
 Given an input genomic sequence (e.g., human chromosome Y), the algorithm computes:
 1. The **length** of the longest repeat.
 2. The **starting positions** of this repeat in the text.
@@ -18,10 +15,7 @@ Given an input genomic sequence (e.g., human chromosome Y), the algorithm comput
 
 ---
 
-## **Assumptions**
-- The input is a **FASTA** file containing a single genomic sequence.
-- The sequence consists of uppercase **DNA characters (A, T, C, G, N)**.
-- Indices in the output are **zero-based**.
+## The input is a **FASTA** file
 
 ---
 
@@ -131,20 +125,9 @@ Length of the longest repeat: 81262
 Starting positions of the longest repeat: [58413702, 59261387]
 Wall-clock time for SA and LCP construction: 701.606730 seconds
 Peak memory usage: 4303592 KB
-```
 
----
 
-## **Performance Complexity**
 
-| Step                        | Algorithm                | Complexity   |
-|-----------------------------|--------------------------|-------------|
-| Suffix Array (SA) Construction | `divsufsort (O(n log n))` | **O(n log n)** |
-| LCP Array Computation       | Kasai Algorithm          | **O(n)**     |
-| Finding Longest Repeat      | Linear Scan              | **O(n)**     |
-| **Total Complexity**        |                          | **O(n log n)** |
-
----
 
 ## **Measuring Execution Time and Memory Usage**
 To measure memory usage in Linux:
@@ -156,12 +139,3 @@ This command provides detailed execution time and memory usage statistics.
 
 ---
 
-## **Conclusion**
-This project successfully identifies the **longest repeated substring** in a genomic sequence using **suffix arrays** and **LCP arrays**. The implementation efficiently computes the results in **O(n log n)** time complexity, making it scalable for large genomic sequences.
-
-Future work may include:
-- Enhancing performance for extremely large genomes.
-- Extending the algorithm to handle multiple sequences.
-- Exploring applications in genome assembly and comparative genomics.
-
-**Keywords**: Suffix Array, LCP Array, Genomic Repeats, Sequence Analysis, Computational Biology.
