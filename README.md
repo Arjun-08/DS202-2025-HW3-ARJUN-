@@ -22,7 +22,7 @@ Given an input genomic sequence (e.g., human chromosome Y), the algorithm comput
 ## **Prerequisites**
 This project requires **Python 3** and the `pydivsufsort` library for suffix array computation.
 
-- **Python Version**: 3.x
+- **Python Version**: 3.11.11 [GCC 11.4.0]
 - **Library Used**: [`pydivsufsort`](https://pypi.org/project/pydivsufsort/)
 
 ### **Installing Dependencies**
@@ -115,12 +115,10 @@ Reads input, computes SA and LCP, finds the longest repeat, and reports:
 
 ---
 
-## **Results**
-
-Input text length: 62460029 characters
 
 RESULTS:
 ---------
+Input text length: 62460029 characters
 Length of the longest repeat: 81262
 Starting positions of the longest repeat: [58413702, 59261387]
 Wall-clock time for SA and LCP construction: 701.606730 seconds
